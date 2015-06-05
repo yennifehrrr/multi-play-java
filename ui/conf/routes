@@ -1,0 +1,3 @@
+GET     /                         controllers.UIApplication.get()
+
+GET     /assets/*file             controllers.Assets.at(path="/public", file)
